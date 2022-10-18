@@ -24,7 +24,7 @@ public class ServiceTest {
 	@Mock
 	GeoRepository geoRepository;
 	@InjectMocks
-	GeoService geoService;
+	GeoServiceImpl geoService;
 	
 	GeoEntity geoEntity = new GeoEntity();
     List<GeoEntity> geoEntities = new ArrayList<>();
